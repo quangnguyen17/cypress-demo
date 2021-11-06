@@ -1,6 +1,6 @@
 # cypress-demo
 
-- Cypress demo project shows how to write [Cypress](https://www.cypress.io/) E2E tests.
+- This demo project will show you how to write [Cypress](https://www.cypress.io/) E2E tests using.
 
 ### Getting Started:
 
