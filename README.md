@@ -17,7 +17,7 @@
 ## How to write a Cypress test:
 
 1. Create a new file in `cypress/tests` folder and name it in following format: `YourTestName.spec.ts`.
-2. Follow the sample test file below to write yours:
+2. Follow the sample test file below to learn how to write yours:
 
 ```typescript
 // Google.spec.ts
