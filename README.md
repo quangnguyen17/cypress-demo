@@ -30,7 +30,7 @@ describe('Google', () => {
   })
 
   it(`I see Google image`, () => {
-    cy.get('img[alt="Google"]')
+    cy.get('img[alt="Google"]').should('be.visible')
   })
 })
 ```
