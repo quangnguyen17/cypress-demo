@@ -14,7 +14,7 @@
 - Tests: `cypress/tests`.
 - Cypress config file: `cypress.json`.
 
-## Examples of [Cypress](https://www.cypress.io/) E2E tests:
+## [Cypress](https://www.cypress.io/) E2E tests:
 
 #### Example #1:
 
