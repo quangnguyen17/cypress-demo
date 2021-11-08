@@ -14,23 +14,25 @@
 - Tests: `cypress/tests`.
 - Cypress config file: `cypress.json`.
 
-## How to write a Cypress test:
+## Examples of [Cypress](https://www.cypress.io/) E2E tests:
 
-1. Create a new file in `cypress/tests` folder and name it in following format: `YourTestName.spec.ts`.
-2. Follow the sample test file below to learn how to write yours:
+#### Example 1: `Google.spec.ts`
 
 ```typescript
-// Google.spec.ts
-
 describe('Google', () => {
-  const APP_URL = 'https://google.com'
-
   beforeEach(() => {
-    cy.visit(`${APP_URL}`)
+    cy.visit('https://www.google.com/')
   })
 
-  it(`I see Google image`, () => {
-    cy.get('img[alt="Google"]').should('be.visible')
+  it('I see Google logo and search bar', () => {
+    cy.get(`img[alt="Google"]`).should('be.visible')
+    cy.get(`input[title="Search"]`).should('be.visible')
   })
 })
+```
+
+#### Example 2: `Rivian.spec.ts`
+
+```typescript
+
 ```
