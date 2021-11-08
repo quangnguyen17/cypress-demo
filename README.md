@@ -17,7 +17,7 @@ npm run cy:ci
 - Test files: `cypress/tests`.
 - [Cypress](https://www.cypress.io) config file: `cypress.json`.
 
-## [Cypress](https://www.cypress.io/) E2E tests:
+## Cypress E2E Tests:
 
 #### Example #1:
 
