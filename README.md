@@ -16,7 +16,9 @@
 
 ## Examples of [Cypress](https://www.cypress.io/) E2E tests:
 
-### Example #1: [`Google.spec.ts`](cypress/tests/Google.spec.ts)
+### Example #1:
+
+[`Google.spec.ts`](cypress/tests/Google.spec.ts)
 
 ```typescript
 describe('Google', () => {
@@ -31,7 +33,9 @@ describe('Google', () => {
 })
 ```
 
-### Example #2: [`Rivian.spec.ts`](cypress/tests/Rivian.spec.ts)
+### Example #2:
+
+[`Rivian.spec.ts`](cypress/tests/Rivian.spec.ts)
 
 ```typescript
 describe('Rivian', () => {
