@@ -14,10 +14,8 @@ npm run cy
 npm run cy:ci
 ```
 
-## Folder Structure:
-
-- Tests: `cypress/tests`.
-- Cypress config file: `cypress.json`.
+- Test files: `cypress/tests`.
+- [Cypress](https://www.cypress.io) config file: `cypress.json`.
 
 ## [Cypress](https://www.cypress.io/) E2E tests:
 
