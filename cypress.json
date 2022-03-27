@@ -1,6 +1,6 @@
 {
-  "testFiles": "**/*.spec.ts",
-  "integrationFolder": "cypress/tests",
+  "testFiles": "**/*.test.ts",
+  "integrationFolder": "tests",
   "fixturesFolder": false,
   "viewportHeight": 1080,
   "viewportWidth": 1920

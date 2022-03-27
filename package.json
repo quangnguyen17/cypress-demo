@@ -1,17 +1,19 @@
 {
-  "name": "cypress-cucumber-demo",
+  "name": "cypress-starter-project",
   "version": "1.0.0",
   "scripts": {
-    "cy:ci": "cypress run",
-    "cy": "./node_modules/.bin/cypress open"
+    "prettier": "npx prettier --write */**.{ts,js}",
+    "test": "./node_modules/.bin/cypress open",
+    "test:ci": "cypress run",
+    "test:clean": "rm -rf cypress/screenshots cypress/videos cypress/downloads"
   },
   "devDependencies": {
-    "@cypress/browserify-preprocessor": "^3.0.1",
-    "@cypress/webpack-preprocessor": "^5.9.1",
-    "@types/react": "^17.0.33",
-    "chai": "^4.3.4",
-    "cypress": "^8.7.0",
-    "mocha": "^9.1.3",
-    "typescript": "^4.4.4"
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@cypress/webpack-preprocessor": "^5.11.1",
+    "chai": "^4.3.6",
+    "cypress": "^9.5.2",
+    "mocha": "^9.2.2",
+    "prettier": "^2.6.1",
+    "typescript": "^4.6.3"
   }
 }

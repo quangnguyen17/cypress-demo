@@ -1,27 +1,17 @@
-# cypress-demo
+# cypress-starter-project
 
-- This demo project will show you how to write [Cypress](https://www.cypress.io/) E2E tests using Typescript.
+Starter project for UI end-to-end testing with Cypress using Typescript.
 
 ## How to run project locally
 
-- Clone and `cd` into the repo, run `npm install` to install project's dependencies.
-- To run tests:
+- Clone and `cd` into the repo, run `npm i` to install project's dependencies.
+- Type `npm run test` to run the example E2E tests, or `npm run test:ci` in context of the CI/CD pipeline.
 
-```bash
-npm run cy
-
-# for CI/CD
-npm run cy:ci
-```
-
-- Test files: `cypress/tests`.
-- [Cypress](https://www.cypress.io) config file: `cypress.json`.
-
-## Cypress E2E Tests:
+## Sample e2e tests written:
 
 #### Example #1:
 
-[`Google.spec.ts`](cypress/tests/Google.spec.ts)
+[`Google.test.ts`](tests/Google.test.ts)
 
 ```typescript
 describe('Google', () => {
@@ -38,7 +28,7 @@ describe('Google', () => {
 
 #### Example #2:
 
-[`Rivian.spec.ts`](cypress/tests/Rivian.spec.ts)
+[`Rivian.test.ts`](tests/Rivian.test.ts)
 
 ```typescript
 describe('Rivian', () => {
